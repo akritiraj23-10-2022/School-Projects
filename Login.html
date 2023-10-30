@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> login page</title>
+      <style>
+  /*login page*/
+  .header{
+    z-index: -50;
+    text-align: left;
+    width: 220px;  
+}
+.header img{
+    border: 5px solid blue;
+    border-radius: 90%;
+    transform: rotate(deg);
+    transition: 5s;
+}
+  .container{
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 20px;
+      border-radius: 5px;
+  }
+  .from-group{
+      margin-bottom: 10px;
+  }
+  label{
+      display: block;
+      font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="password"]{
+      width: 100%;
+      padding: 8px;
+      border:1px solid #962121;
+      border-radius: 4px;
+  }
+  button[type="submit"]{
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #962121;
+      color: blue;
+      border:none;
+      border-radius: 4px;
+      cursor: progress;
+  }
+  button[type="submit"]:hover{
+      background-color: aqua;
+  }
+     
+      body{
+          background-image: url(./image/login.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+      .from-group button{
+          display: block;
+          width: 10%;
+          padding: 10px;
+          background-color: aqua;
+          color:#962121;
+          border-radius: 3px;
+          cursor: progress;
+      }
+      .from-group button:hover{
+          background-color: blue;
+      }
+      .from-group button{
+          display: block;
+          width: 10%;
+          padding: 10px;
+          background-color: aqua;
+          color:#962121;
+          border-radius: 3px;
+          cursor: progress;
+      }
+      .from-group button:hover{
+          background-color: blue;
+      }
+
+      .container{
+          max-width: 400px;
+          margin: 0 auto;
+          padding: 20px;
+          text-align: center;
+      }
+      .register-button{
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: aqua;
+          color: #962121;
+          border: none;
+          border-radius: 3px;
+          text-decoration: none;
+          font-weight: bold;
+      }
+      .register-button:hover{
+          background-color: blue;
+      }
+      </style>
+    </head>
+    <body>
+        <marquee> <h1 style="color:rgb(37, 188, 199);">RAJGURU SHIKSHA NIKATAN  <h1> </marquee>
+           <marquee behavior="1" direction="left">1st Branch: Near Fakira School, Kharkhura Main Road Gaya </marquee> 
+            <marquee behavior="2" direction="left">2st Branch: Barchhi Asthan,Kharkhura, Gaya</marquee>
+           
+                
+                <!--javasctipt methood-->
+                    <script>
+                    function fun()
+                    {
+                        alert("login Successfully");
+                    }
+                    function fun()
+                    {
+                        alert("Regtstration Successfully");
+                    }
+
+                </script>
+                <!--using css-->
+                <section class="header">
+                    <div><img src="./image/logo1.jpg" alt="logo1" height="50%" width="50%"></div>
+                </section>
+               
+        <h1 style="color:blue";> <center>WELCOME TO RAJGURU SHIKSHA NIKATAN<center> </h1>
+            <center>
+            <div class="container">
+                <h2>LOGIN TO RAJGURU SHIKSHA NIKATAN </h2>
+              <form>
+                <div class="from-group">
+                    <label for="Username"> Username</label>
+                    <input type="text"id="Username" name="Username"placeholder="Enter Your username" required>
+                </div>
+                <div class="from-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password"id="password" name="password" placeholder="Enter Your password" required>               </div>
+                <button type="submit">Login</button>
+              </form>
+            </div>
+            <div class="from-group">
+                <button type="submit">Forget password</button>
+            </div>
+            <div class="from-group">
+                <button type="submit">Reset password</button>
+            </div>    
+            </center>
+            <div class="container">
+                <a class="register-button"href="Register.html">Register </a>
+            </div>
+    </body>
+</html>

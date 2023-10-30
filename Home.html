@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <style>
+          /*home page css*/
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+/*navbar*/
+  nav {
+  background-color: #333;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 25px;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 20px;
+}
+/*end*/
+  /*home */
+  .home{
+      min-height:720px;
+      justify-content: center;
+      background-image: url(./image/background.jpg);
+      background-size: 100% 100%;
+  }
+  .home .content{
+      color: rgb(22, 165, 165);
+      width: 70%;
+      margin-top: 50px;
+  }
+  .home .content h1{
+      font-size: 4em;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin-bottom: 40px;
+  }
+  .home .content h1 span{
+      font-size: 1.2em;
+      font-weight: 600;
+  }
+  .home .content p{
+      margin-bottom: 35px;
+  }
+  .home .content a{
+      background: rgb(165, 29, 29);
+      padding: 15px 35px;
+      color: blue;
+      font-size: 1.1em;
+      font-weight: 500;
+      text-decoration: none;
+      border-radius: 2px;
+  }
+
+  .maindiv{
+      width: 70%;
+      height: 400px;
+      position: absolute; 
+      background-image: url(./image/background1.jpg);
+      background-size: 100% 100%;
+      box-shadow: 1px 2px 10px rgb(172, 15, 15);
+      animation: slider 30s infinite linear;
+  }
+  @keyframes slider{
+      0%{background-image: url(./image/silader.jpg);}
+      20%{background-image: url(./image/silider1.jpg);}
+      45%{background-image: url(./image/sileder2.jpg);}
+  }
+ 
+    </style>
+</head>
+
+<body>
+     <!--header-->
+     <nav>
+        <ul>
+            <li><a href="Login.html">Home</a></li>
+            <li><a href="Admissions.html">Admissions</a></li>
+            <li><a href="Classes.html">Classes</a></li>
+            <li><a href="About.html">About US</a></li>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+     </nav>
+    
+    <section class="home">
+     <div class="maindiv">
+
+        <div class="content">
+            <h1><br> <span> RAJGURU SHIKSHA NIKATAN </span> </h1>
+            <p> 1st Branch: Near Fakira School, Kharkhura Main Road Gaya </p>
+            <p>2st Branch: Barchhi Asthan,Kharkhura, Gaya</p>
+           <!--<center> <a href="login .html">Next Page</a></center--> 
+           
+        </div>
+    </div>
+
+    <div class="card">
+        <div><img src="./image/Mask Group 3.jpg" alt=""></div>
+        <div>Natural care for healthy
+            facial skin</div>
+        <div>A healthy lifestyle should start from now and also for your skin health.
+            There are some...</div>
+        <div>Read more</div>
+    </div>
+    </section>
+        
+    
+</body>
+</html>

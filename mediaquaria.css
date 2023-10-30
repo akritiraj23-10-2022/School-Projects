@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Admissions media screen*/
+@media screen and (max-width: 640px) {
+    .container {
+        width: 90vw;
+        padding: 10px 5px;
+    }
+    .form-item label {
+        font-size: 14px;
+    }
+    .form-item input {
+        margin: 5px 10px;
+        font-size: 12px;
+    }
+    .genders {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .genders input {
+        width: 15px;
+    }
+    .same-perm{
+
+    font-size: 13px;
+    margin: 5px 50px;
+}
+    .register {
+        margin: 25px;
+        font-size: 15px;
+        padding: 7px 10px;
+    }
+}
